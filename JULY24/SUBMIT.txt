@@ -3,7 +3,7 @@ Create your folder of code with the below format
 date- your name - coding assessment
 and insert your code file inside that folder also do push 
 
-Do create merge and  pull request in "JULY24" branch
+Do create merge and  pull request in "JULY24" branch , dont create in master branch
 
 Note: DO THE STEPS AS SIR TOLD IN CLASS DURING TEAM COLLABORATIONS .PLEASE MAKE SURE YOU HAVE DONE CORRECTLY .
-FURTHER CHANGES WILL NOT BE HANDLED
+FURTHER CHANGES WILL NOT BE HANDLED.
