@@ -9,3 +9,4 @@ def evenOdd(n):
 evenOdd(n)
 print(evenlist)
 print(oddlist)
+
