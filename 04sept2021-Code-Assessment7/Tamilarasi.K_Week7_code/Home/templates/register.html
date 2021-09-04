@@ -1,0 +1,44 @@
+{% extends 'home.html' %}
+{% block myContent  %}
+
+<body>
+
+<form action="http://localhost:8000/Home/registerAction/" method="post">
+
+
+
+<table class="table">
+  <tr>
+        <td> Name  </td>
+        <td> 
+            <input name="name" type="text" class="form-control"> 
+        </td>
+    </tr>
+
+
+    <tr>
+        <td> Username  </td>
+        <td> 
+            <input name="username" type="text" class="form-control"> 
+        </td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td>
+                        <input name="password" type="text" class="form-control"> 
+
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> <button class="btn btn-success"> Register </button></td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td> <a href='http://localhost:8000/Home/login/'> Back to LogIn </a> </td>
+    </tr>
+</table>
+</form>
+
+{% endblock   %}
