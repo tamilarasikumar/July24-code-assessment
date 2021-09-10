@@ -1,0 +1,36 @@
+{% extends 'welcome1.html' %}
+{% block myContent %}
+<body>
+    <form action="http://127.0.0.1:8000/student/signin_check/"method="post">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 "></div>
+            <div class="col col-12 col-sm-8 col-md-8 col-xl-8 col-xl-8 col-xxl-8">
+                <table class="table table-borderless">
+                   <center><h2>LOGIN</h2></center>
+        <tr>
+            <td>USERNAME</td>
+            <td> <input type="text" name="username" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>PASSWORD</td>
+            <td> <input type="password" name="password" class="form-control"></td>
+        </tr>    
+        
+        <tr>
+            <td></td>
+            <td><Button class="btn btn-success">SIGN IN</Button></td>
+        </tr>
+        <tr>
+            <td>New User Please Register</td>
+            <td><button class="btn btn-danger" formaction="../student/">Register</button></td>
+        </tr>
+  
+    </table>
+    </div>
+
+        <div class="col-12 col-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2"></div>
+ 
+</div>
+</div>     
+{% endblock %}       
